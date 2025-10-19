@@ -1,0 +1,17 @@
+.logo {
+    height: 100px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+
+.placeholder {
+    height: auto;
+    width: 200px;
+}
+
+
+.info-img {
+    height: auto;
+    width: 100px;
+}
