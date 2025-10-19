@@ -15,9 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    
     align-items: center;
-    
+    justify-content: center;
 }
 
 .top {
@@ -32,7 +31,11 @@ body {
     
 }
 
-
+.logo {
+    height: 100px;
+    width: 130px;
+    border-radius: 50%;
+}
 
 .top-content {
     display: flex;
@@ -40,11 +43,7 @@ body {
 }
 
 
-.logo {
-    height: 100px;
-    width: 130px;
-    border-radius: 50%;
-}
+
 
 
 .placeholder-img {
@@ -82,4 +81,5 @@ body {
     padding: 0 100%;
     width: 70%;
     background-color: #1F2937;
+    text-align: center;
 }
