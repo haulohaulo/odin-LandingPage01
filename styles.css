@@ -1,3 +1,20 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.top, .sec-two, .sec-three, .sec-four {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .logo {
     height: 100px;
     width: 130px;
@@ -5,7 +22,7 @@
 }
 
 
-.placeholder {
+.placeholder-img {
     height: auto;
     width: 200px;
 }
@@ -14,4 +31,39 @@
 .info-img {
     height: auto;
     width: 100px;
+}
+
+
+.top {
+    background-color: #1F2937;
+    
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.top-content {
+    display: flex;
+    color: white;
+}
+
+
+.infos {
+    display: flex;
+}
+
+
+.banner {
+    display: flex;
+}
+
+
+
+.sec-three {
+    background-color: #E5E7EB;
 }
