@@ -7,11 +7,13 @@ body {
     flex-direction: column;
     align-items: center;/* align all sections center horizontally*/
     
+    
 }
 
-.top, .sec-two, .sec-three, .sec-four {
+.top, .sec-three, .sec-four {
     padding: 0 100%;
-    width: 60%;
+    width: 40%;
+    min-width: 500px;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -34,48 +36,67 @@ body {
     justify-content: space-between;
 }
 
-.links {
-    display: flex;
-    gap: 20px;
-}
-
 .logo {
     height: 50px;
     width: 80px;
     border-radius: 50%;
 }
+.links, a {
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-decoration: none;
+}
+
 
 .top-content {
     display: flex;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     justify-content: space-between;
     
 }
 
-.left .secondary-text {
-    max-width: 250px;
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
+.left .secondary-text {
+    max-width: 350px;
+
+}
+
+.button1 {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+}
 
 
 
 .placeholder-img {
-    height: auto;
+    height: 100px;
     width: 200px;
 }
 
-
+.sec-two {
+    padding: 0 100%;
+    background-color:#3882F6;
+}
 
 .info-title {
     text-align: center;
-    
+    padding: 25px;
 }
 
 .infos {
     display: flex;
     justify-content: center;
     gap: 40px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 
@@ -98,12 +119,24 @@ body {
 .banner {
     display: flex;
     justify-content: space-between;
+    padding: 30px 100px;
 }
 
+button {
+    width: 100px;
+}
+
+button, .banner {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
 
 .footer {
-    padding: 0 100%;
+    padding: 20px 100%;
     width: 70%;
+    color: white;
     background-color: #1F2937;
     text-align: center;
 }
